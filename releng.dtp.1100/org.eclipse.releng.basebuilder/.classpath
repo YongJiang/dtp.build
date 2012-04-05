@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="plugins/org.eclipse.build.tools/src"/>
+	<classpathentry kind="src" path="plugins/org.eclipse.build.tools/src_rss"/>
+	<classpathentry kind="lib" path="/eclipseInternalBuildTools/plugins/org.eclipse.internal.build.tools/j2ee.jar"/>
+	<classpathentry kind="lib" path="plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant.jar"/>
+	<classpathentry kind="lib" path="plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant-antlr.jar"/>
+	<classpathentry kind="lib" path="plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant-apache-bcel.jar"/>
+	<classpathentry kind="lib" path="plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant-apache-bsf.jar"/>
+	<classpathentry kind="lib" path="plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant-apache-log4j.jar"/>
+	<classpathentry kind="lib" path="plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant-apache-oro.jar"/>
+	<classpathentry kind="lib" path="plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant-apache-regexp.jar"/>
+	<classpathentry kind="lib" path="plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant-apache-resolver.jar"/>
+	<classpathentry kind="lib" path="plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant-commons-logging.jar"/>
+	<classpathentry kind="lib" path="plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant-commons-net.jar"/>
+	<classpathentry kind="lib" path="plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant-jai.jar"/>
+	<classpathentry kind="lib" path="plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant-javamail.jar"/>
+	<classpathentry kind="lib" path="plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant-jdepend.jar"/>
+	<classpathentry kind="lib" path="plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant-jmf.jar"/>
+	<classpathentry kind="lib" path="plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant-jsch.jar"/>
+	<classpathentry kind="lib" path="plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant-junit.jar"/>
+	<classpathentry kind="lib" path="plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant-launcher.jar"/>
+	<classpathentry kind="lib" path="plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant-netrexx.jar"/>
+	<classpathentry kind="lib" path="plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant-swing.jar"/>
+	<classpathentry kind="lib" path="plugins/org.eclipse.core.runtime_3.7.0.v20110110.jar"/>
+	<classpathentry kind="lib" path="plugins/org.eclipse.osgi_3.7.0.v20110524.jar"/>
+	<classpathentry kind="lib" path="plugins/org.eclipse.swt_3.7.0.v3735b.jar"/>
+	<classpathentry kind="lib" path="plugins/org.eclipse.swt.win32.win32.x86_3.7.0.v3735b.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="plugins/bin"/>
+</classpath>

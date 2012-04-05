@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.ocl.all"
+      label="%featureName"
+      version="3.0.1.R30x_v201008251030-77-07EB1HmFvCkw5HyHBQCKUDK94"
+      provider-name="%providerName">
+
+   <description url="http://www.eclipse.org/modeling/mdt/ocl/3_0">
+      %description
+   </description>
+
+   <copyright url="http://www.eclipse.org/legal/epl-v10.html">
+      Copyright (c) 2005, 2010 IBM Corporation and others.
+All rights reserved.   This program and the accompanying materials
+are made available under the terms of the Eclipse Public License v1.0
+which accompanies this distribution, and is available at
+http://www.eclipse.org/legal/epl-v10.html
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="http://download.eclipse.org/modeling/mdt/ocl/3_0/updates/"/>
+      <discovery label="%updateSiteName" url="http://download.eclipse.org/modeling/mdt/ocl/3_0/updates/"/>
+   </url>
+
+   <includes
+         id="org.eclipse.ocl"
+         version="3.0.1.R30x_v201008251030-79-7I8qD6z-DtD7E6BP9D5393"/>
+
+   <includes
+         id="org.eclipse.ocl.uml"
+         version="3.0.0.R30x_v201008251030-4--7S41yaw312119362141"/>
+
+</feature>

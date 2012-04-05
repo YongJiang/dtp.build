@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.sdk"
+      label="%featureName"
+      version="3.6.2.r362_v20100929-7Q7m7HD5cWlFgdCBHllpZMd2M468sbnm2RJvUWIbiJnWC"
+      provider-name="%providerName"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="http://download.eclipse.org/eclipse/updates/3.6"/>
+      <discovery label="%updateSiteName" url="http://download.eclipse.org/eclipse/updates/3.6"/>
+      <discovery label="%secondaryUpdateSiteName" url="http://download.eclipse.org/releases/helios"/>
+   </url>
+
+   <includes
+         id="org.eclipse.platform"
+         version="3.6.2.r362_v20110210-9gF78Gs1FrIGnHDHWkEcopoN8AmxeZflGDGKQi"/>
+
+   <includes
+         id="org.eclipse.platform.source"
+         version="3.6.2.r362_v20110210-9gF78Gs1FrIGnHDHWkEcopoN8AmxeZflGDGKQi"/>
+
+   <includes
+         id="org.eclipse.cvs"
+         version="1.2.1.r362_v20101111-7B77FKv99HL0GvIAF99I8H14B7E"/>
+
+   <includes
+         id="org.eclipse.cvs.source"
+         version="1.2.1.r362_v20101111-7B77FKv99HL0GvIAF99I8H14B7E"/>
+
+   <includes
+         id="org.eclipse.jdt"
+         version="3.6.2.r362_v20101117-0800-7z8XFW6FLFlmjJcvz03jyeFBLS_F"/>
+
+   <includes
+         id="org.eclipse.jdt.source"
+         version="3.6.2.r362_v20101117-0800-7z8XFW6FLFlmjJcvz03jyeFBLS_F"/>
+
+   <includes
+         id="org.eclipse.pde"
+         version="3.6.2.r362_v20110203-7b7mFL2FET3dhHalh1iNZtL"/>
+
+   <includes
+         id="org.eclipse.pde.source"
+         version="3.6.2.r362_v20110203-7b7mFL2FET3dhHalh1iNZtL"/> 
+ 
+   <includes
+         id="org.eclipse.help"
+         version="1.2.1.r362_v20101111-7e7jEVFDr6xg-LSlC_z0w1D"/>
+         
+   <includes
+         id="org.eclipse.help.source"
+         version="1.2.1.r362_v20101111-7e7jEVFDr6xg-LSlC_z0w1D"/>
+ 
+   <plugin
+         id="org.eclipse.sdk"
+         download-size="0"
+         install-size="0"
+         version="3.6.2.v201102101200"/>
+
+</feature>

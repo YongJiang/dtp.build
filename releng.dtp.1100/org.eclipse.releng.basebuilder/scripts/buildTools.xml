@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="org.eclipse.releng.basebuilder" default="default" basedir="..">
+
+	<target name="default" description="Jar up the binaries that were compiled by the jdt builder" >
+		<mkdir dir="${basedir}/plugins/org.eclipse.build.tools" />
+		<delete file="${basedir}/plugins/org.eclipse.build.tools/buildTools.jar" failonerror="false"/>
+		<jar destfile="${basedir}/plugins/org.eclipse.build.tools/buildTools.jar" basedir="${basedir}/plugins/bin"/>
+	</target>
+
+</project>
